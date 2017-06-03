@@ -1,1 +1,1 @@
-const a = require('./src/lib');
+module.exports = require('./src/traverser');
