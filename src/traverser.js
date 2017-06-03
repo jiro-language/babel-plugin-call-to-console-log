@@ -12,8 +12,6 @@ module.exports =
             t.stringLiteral('')
           }
 
-          console.log(arg)
-
           path.replaceWithMultiple([
             t.expressionStatement(
                 t.callExpression(
